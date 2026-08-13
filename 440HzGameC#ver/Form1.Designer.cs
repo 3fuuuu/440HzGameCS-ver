@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             lblRetry = new Label();
-            lblBest = new Label();
             lblResult = new Label();
             btnPlay = new Button();
             btnEnter = new Button();
@@ -50,17 +49,6 @@
             lblRetry.TabIndex = 0;
             lblRetry.Text = "Retries : 0";
             // 
-            // lblBest
-            // 
-            lblBest.AutoSize = true;
-            lblBest.Font = new Font("Yu Gothic UI", 13F);
-            lblBest.Location = new Point(430, 60);
-            lblBest.Name = "lblBest";
-            lblBest.Size = new Size(66, 25);
-            lblBest.TabIndex = 1;
-            lblBest.Text = "Best : -";
-           
-            // 
             // lblResult
             // 
             lblResult.AutoSize = true;
@@ -71,7 +59,6 @@
             lblResult.TabIndex = 2;
             lblResult.Text = "WIN";
             lblResult.Visible = false;
-          
             // 
             // btnPlay
             // 
@@ -129,7 +116,6 @@
             trackBar1.TabIndex = 7;
             trackBar1.TickStyle = TickStyle.None;
             trackBar1.Value = 430;
-         
             // 
             // lblHz
             // 
@@ -154,7 +140,6 @@
             Controls.Add(btnEnter);
             Controls.Add(btnPlay);
             Controls.Add(lblResult);
-            Controls.Add(lblBest);
             Controls.Add(lblRetry);
             MaximizeBox = false;
             Name = "Form1";
@@ -168,7 +153,6 @@
         #endregion
 
         private Label lblRetry;
-        private Label lblBest;
         private Label lblResult;
         private Button btnPlay;
         private Button btnEnter;
