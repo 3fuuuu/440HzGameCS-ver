@@ -16,13 +16,7 @@ namespace _440HzGameC_ver
         System.Windows.Forms.Timer stopTimer =
             new System.Windows.Forms.Timer();
 
-        int frequency
-        {
-            get
-            {
-                return trackBar1.Value;
-            }
-        }
+        int frequency => trackBar1.Value;
 
         public Form1()
         {
